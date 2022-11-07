@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background: #000000; 
+    font-family: 'Lato', sans-serif;
+}
+
+nav{
+    display: flex;
+    width:100vw;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 40px;
+    padding: 0 25px;
+}
+
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none; 
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{ 
+    font-weight: bolder;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    width: 30vw;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 16px 0 56px;
+    padding:0 12px;
+}
+
+.search button{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+
+.mimg img{
+    height: 500px;
+}
+.ZMM{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    height: 128px;
+    
+}
+.ZMM h3{
+    
+    align-items:center;
+
+}
+.shop-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.shop-img-top{
+    height: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+
+}
+#center{
+    height: 1px;
+    background-color: black;
+}
+.flex-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border: 2px;
+    width: 100vw;
+  }
+  .buton button{
+     border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    /* font-weight: bold; */
+    font-size: 15px;
+    margin-top: 34px;
+    cursor: pointer;
+
+}
+.images_in_makeup{
+    display: flex;
+    flex-direction: row;
+}
+.images_in_dress{
+    display: flex;
+    flex-direction: row;
+}
+.buton button:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+  
+ .dress-title{
+    background-color:white;    
+    margin: 20px;
+    padding: 216px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 50px;
+    height:141px ;
+  }
+
+.img-1{
+    height:50vh;
+
+}
+.img-2{
+    height:50vh;
+    
+}
+
+
+.dress-mg{
+    height: 20px;
+}
+#date{
+margin-left:0px;
+}
+
+.wi{
+width:200px;
+margin-left:26px;
+}
+
+.sel{
+width:70px;
+}
+
+#sel{
+width:130px;
+}
+
+.butn{
+color:white;
+background-color:green;
+width:90px;
+height:30px;
+}
+
+i{
+color:yellow;
+}
+
+#butn{
+color:white;
+background-color:red;
+width:90px;
+height:30px;
+}
+
+#container{
+background-color:aliceblue;
+padding:10px;
+text-align:right;
+}
+
+form{
+display: contents;
+background-color:aliceblue;
+}
+
+.container{
+background-color:aliceblue;
+/* padding:10px; */
+}
+
+#firstdiv{
+color:black;
+}
+
+.box{
+text-align:right;
+background-color:aliceblue;
+/* margin-left:20px;
+margin-right:55px; */
+color:black;
+/* justify-content: center; */
+height: 100vh;
+width: 100vw;
+
+}
+
+label{
+color:black;
+}
+
+footer{
+    height: 12vh;
+    background-color: #000000; 
+    color: white;
+    font-family: 'Lato', sans-serif;
+
+}
+.text-center{
+    height:444px;
+}
